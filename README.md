@@ -26,7 +26,7 @@ The only way to install this plugin is to add this repository as a dependancy to
 
 3. Then tell Composer to load the plugin:
 
-        composer require mikestecker/craft3-encodeemail
+        composer require mikestecker/craft3-encodeemail:dev-master
 
 4. In the Control Panel, go to Settings → Plugins and click the “Install” button for Encode Email.
 
