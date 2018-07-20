@@ -67,7 +67,7 @@ class EncodeEmail extends Plugin
         self::$plugin = $this;
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new EncodeEmailTwigExtension());
+        Craft::$app->view->registerTwigExtension(new EncodeEmailTwigExtension());
 
         // Do something after we're installed
         Event::on(
